@@ -39,7 +39,7 @@
   <view class="n-box" bindtap="notice" data-id='1'>
     <view class="n-name"> 阎卡林：把党对金融工作的领导落实到位！</view>
     <view class="n-time">08-23 20:05</view>
-  </view>
+  </view> 
   <view class="n-box" bindtap="notice" data-id='2'>
     <view class="left">
       <view class="n-name"> 金里伦：兼谈关于“新周期”的讨论 </view>
