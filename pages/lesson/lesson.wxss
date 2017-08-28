@@ -1,0 +1,34 @@
+page {
+  font-size: 14px;
+  color: #333;
+  font-family: 'Microsoft YaHei';
+}
+
+.table {
+  /* border: 1px solid #dadada;
+  border-top: none; */
+  border-right: 0;
+  border-bottom: 0;
+}
+
+.tr {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.th, .td {
+  padding: 10px;
+  border-bottom: 1px solid #dadada;
+  border-right: 1px solid #dadada;
+  text-align: center;
+  width: 100%;
+}
+
+.th {
+  font-size: 30rpx;
+  font-weight: 400;
+  background-color: #e64340;
+  color: #fff;
+  border-right:none;
+}

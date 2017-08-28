@@ -1,0 +1,6 @@
+@import "/wxParse/wxParse.wxss";
+
+page {
+  line-height: 50rpx;
+  font-size: 28rpx;
+}

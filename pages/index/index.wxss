@@ -1,0 +1,96 @@
+page {
+  background-color: #f6f6f6;
+  font-size: 28rpx;
+  font-family: 'Microsoft YaHei';
+  color: #000;
+}
+
+.container {
+  background-color: #fff;
+}
+
+.tools {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 20rpx;
+}
+
+.t-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.t-box image {
+  height: 70rpx;
+  width: 70rpx;
+  margin-bottom: 10rpx;
+}
+
+swiper-item image {
+  width: 100%;
+  height: 100%;
+}
+
+.notice {
+  padding: 0 20rpx;
+  margin-top: 20rpx;
+  background-color: #fff;
+}
+
+.n-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 60rpx;
+  line-height: 60rpx;
+  font-weight: bold;
+  font-size: 30rpx;
+}
+
+.n-title image {
+  width: 40rpx;
+  height: 40rpx;
+}
+
+.n-box {
+  padding: 20rpx 0;
+  width: 100%;
+  height: 100rpx;
+  overflow: hidden;
+  border-bottom: 1rpx solid #eee;
+}
+
+.n-box:last-child{
+  border-bottom: none;
+}
+
+.n-box view {
+  line-height: 50rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.n-box .n-time {
+  font-size: 24rpx;
+  color: #8a8a8a;
+}
+
+.left {
+  float: left;
+  width: 70%;
+}
+
+.right {
+  float: right;
+  width: 25%;
+  height: 100%;
+}
+
+.right image {
+  width: 100%;
+  height: 100rpx;
+}

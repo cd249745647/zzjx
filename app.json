@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/vote/vote",
+    "pages/kpi/kpi",
+    "pages/lesson/lesson",
+    "pages/calendar/calendar",
+    "pages/notice/notice",
+    "pages/apply/apply",
+    "pages/mine/mine"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000000",
+    "navigationBarTitleText": "中直教学",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#1aad19",
+    "borderStyle": "black",
+    "list": [
+      {
+        "iconPath": "imgs/index.png",
+        "selectedIconPath": "imgs/index_s.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "iconPath": "imgs/timetable.png",
+        "selectedIconPath": "imgs/timetable_s.png",
+        "pagePath": "pages/calendar/calendar",
+        "text": "课表"
+      },
+      {
+        "iconPath": "imgs/mine.png",
+        "selectedIconPath": "imgs/mine_s.png",
+        "pagePath": "pages/mine/mine",
+        "text": "我的"
+      }
+    ]
+  }
+}

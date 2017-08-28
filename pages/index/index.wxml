@@ -1,0 +1,61 @@
+<view class="container">
+  <swiper indicator-dots="true" autoplay="true" indicator-active-color="#ffffff" interval="5000" duration="500">
+    <swiper-item>
+      <image src="https://1251097942.cdn.myqcloud.com/1251097942/cd/wx20170110/20170828/zzdx1.png" />
+    </swiper-item>
+    <swiper-item>
+      <image src="https://1251097942.cdn.myqcloud.com/1251097942/cd/wx20170110/20170828/zzdx2.png" />
+    </swiper-item>
+    <swiper-item>
+      <image src="https://1251097942.cdn.myqcloud.com/1251097942/cd/wx20170110/20170828/zzdx3.png" />
+    </swiper-item>
+  </swiper>
+  <view class="tools">
+    <view class="t-box" bindtap="apply">
+      <image src="http://www.zgdjcx.com/files/20170410/9c1e5e68-b962-4154-83ec-5c615132e36a.png"></image>
+      <text>报到入学</text>
+    </view>
+    <view class="t-box" bindtap="kpi">
+      <image src="http://www.zgdjcx.com/files/20170410/2b0d8ebb-f32c-44ee-a054-c3a6f64cd9ed.png"></image>
+      <text>教学测评</text>
+    </view>
+    <view class="t-box" bindtap="vote">
+      <image src="http://www.zgdjcx.com/files/20170817/754c24cb-5010-4386-9f36-7ff22511fa82.png"></image>
+      <text>问卷调查</text>
+    </view>
+  </view>
+</view>
+<view class="notice">
+  <view class="n-title">
+    <text>通知通告</text>
+    <image src="../../imgs/more.png"></image>
+  </view>
+
+  <view class="n-box" bindtap="notice" data-id='0'>
+    <view class="n-name"> 四谈别让特朗普“唬”住了！</view>
+    <view class="n-time">08-24 20:05</view>
+  </view>
+
+  <view class="n-box" bindtap="notice" data-id='1'>
+    <view class="n-name"> 阎卡林：把党对金融工作的领导落实到位！</view>
+    <view class="n-time">08-23 20:05</view>
+  </view>
+  <view class="n-box" bindtap="notice" data-id='2'>
+    <view class="left">
+      <view class="n-name"> 金里伦：兼谈关于“新周期”的讨论 </view>
+      <view class="n-time">08-22 19:35</view>
+    </view>
+    <view class="right">
+      <image src="https://1251097942.cdn.myqcloud.com/1251097942/cd/wx20170110/20170828/41ded328-cb02-4c9e-8092-186d1aab1abd.jpg"></image>
+    </view>
+  </view>
+  <view class="n-box" bindtap="notice" data-id='3'>
+    <view class="left">
+      <view class="n-name"> 6月20日上午罗援将军为中直党校全体学员作军事问题报告 </view>
+      <view class="n-time">08-20 19:35</view>
+    </view>
+    <view class="right">
+      <image src="https://1251097942.cdn.myqcloud.com/1251097942/cd/wx20170110/20170828/4c807b79-91c1-457e-909a-6e424db4072a.jpg"></image>
+    </view>
+  </view>
+</view>

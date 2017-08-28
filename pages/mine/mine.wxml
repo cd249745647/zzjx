@@ -1,0 +1,28 @@
+<view class="header">
+  <image src="../../imgs/mine.jpg"></image>
+  <text>Chen</text>
+</view>
+
+<view class="more">
+  <view class="box">
+    <view class="left">
+      <image src="../../imgs/businesscard.png"></image>
+      我的报名
+    </view>
+    <image src="../../imgs/more.png" class="right"></image>
+  </view>
+  <view class="box">
+    <view class="left">
+      <image src="../../imgs/dynamic.png"></image>
+      我的测评
+    </view>
+    <image src="../../imgs/more.png" class="right"></image>
+  </view>
+  <view class="box">
+    <view class="left">
+      <image src="../../imgs/activity.png"></image>
+      我的问卷
+    </view>
+    <image src="../../imgs/more.png" class="right"></image>
+  </view>
+</view>

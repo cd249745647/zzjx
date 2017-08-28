@@ -1,0 +1,39 @@
+<view class="container">
+    <view class="table">
+        <view class="tr">
+            <view class="th">时间</view>
+            <view class="th">课程</view>
+            <view class="th">指导导师</view>
+        </view>
+        <view class="tr">
+            <view class="td">09:00</view>
+            <view class="td">高等数学</view>
+            <view class="td">陈老师</view>
+        </view>
+        <view class="tr">
+            <view class="td">10:00</view>
+            <view class="td">马克思主义</view>
+            <view class="td">王老师</view>
+        </view>
+        <view class="tr">
+            <view class="td">11:00</view>
+            <view class="td">大学英语</view>
+            <view class="td">李老师</view>
+        </view>
+        <view class="tr">
+            <view class="td">12:00</view>
+            <view class="td">体育</view>
+            <view class="td">周老师</view>
+        </view>
+        <view class="tr">
+            <view class="td">13:00</view>
+            <view class="td">计算机科学与技术</view>
+            <view class="td">李老师</view>
+        </view>
+        <view class="tr">
+            <view class="td">14:00</view>
+            <view class="td">概率论</view>
+            <view class="td">王老师</view>
+        </view>
+    </view>
+</view>

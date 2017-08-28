@@ -1,0 +1,14 @@
+<view class="smile">
+  <view class="s-box" bindtap="kpi" data-index='1'>
+    <image src="../../imgs/best.png"></image>
+    很好 <block wx:if="{{kpied}}">70%</block>
+  </view>
+  <view class="s-box" bindtap="kpi" data-index='2'>
+    <image src="../../imgs/better.png"></image>
+    好 <block wx:if="{{kpied}}">19%</block>
+  </view>
+  <view class="s-box" bindtap="kpi" data-index='3'>
+    <image src="../../imgs/normal.png"></image>
+    一般 <block wx:if="{{kpied}}">11%</block>
+  </view>
+</view>

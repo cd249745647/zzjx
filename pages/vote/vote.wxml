@@ -1,0 +1,56 @@
+<view class="container">
+  <view class="title">党教创新</view>
+  <!-- <image mode='widthFix' src="http://www.zgdjcx.com/files/20170817/b023eaf3-fad1-4ca8-b1ba-12ccc7091310.png"></image> -->
+  <view class="content">
+    自9月12日秋季开学起，中央直属机关党校开始启用网络平台管理在校学生的报名、学习进度、学习考核、教学测评等工作。同时陆续推进网络教学平台，建立网络党校视频教学课堂，将大部分的教学课程、考核评估工作在网络党校平台完成，使学员利用业余时间完成大部分学习及考核课程，每期学员择优从网络学习中选取参加面授课程。优点是：
+  </view>
+</view>
+
+<view class="votes" hidden="{{voted}}">
+  <view class="v-box" bindtap="radioCheck" data-index='1'>
+    <view class="{{vIndex == '1' ? 'radioed': 'radio'}}">带着问题学习</view>
+  </view>
+  <view class="v-box" bindtap="radioCheck" data-index='2'>
+    <view class="{{vIndex == '2' ? 'radioed': 'radio'}}">缩短面授时间</view>
+  </view>
+  <view class="v-box" bindtap="radioCheck" data-index='3'>
+    <view class="{{vIndex == '3' ? 'radioed': 'radio'}}">紧跟形势</view>
+  </view>
+  <view class="v-box" bindtap="radioCheck" data-index='4'>
+    <view class="{{vIndex == '4' ? 'radioed': 'radio'}}">不予置评</view>
+  </view>
+
+</view>
+
+<view class="votes voted" hidden="{{!voted}}">
+  <view class="v-box">
+    <view class="choose">带着问题学习</view>
+    <view class="process">
+      <view class="p-detail" style="width:54%;"></view>
+    </view>
+    <view class="num">54%</view>
+  </view>
+  <view class="v-box">
+    <view class="choose">缩短面授时间</view>
+    <view class="process">
+      <view class="p-detail" style="width:16%;"></view>
+    </view>
+    <view class="num">16%</view>
+  </view>
+  <view class="v-box">
+    <view class="choose">紧跟形势</view>
+    <view class="process">
+      <view class="p-detail" style="width:18%;"></view>
+    </view>
+    <view class="num">18%</view>
+  </view>
+    <view class="v-box">
+    <view class="choose">不予置评</view>
+    <view class="process">
+      <view class="p-detail" style="width:2%;"></view>
+    </view>
+    <view class="num">2%</view>
+  </view>
+</view>
+
+<view class="button" bindtap="vote" hidden="{{voted}}">投票</view>

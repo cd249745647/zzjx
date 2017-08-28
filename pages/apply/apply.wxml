@@ -1,0 +1,58 @@
+<view class="form">
+  <view class="box">
+    <text>报名日期</text>
+    <picker mode="date" fields="month" value="{{year}}" start="{{startMonth}}" bindchange="bindDateChange">
+      <text wx:if="{{year == ''}}"> 请选择报名日期 </text>
+      <text wx:else> {{year}} </text>
+    </picker>
+  </view>
+  <view class="box">
+    <text>报名班级</text>
+    <picker mode="selector" value="{{gIndex}}" range="{{grades}}" bindchange="bindGradeChange">
+      <text wx:if="{{gIndex == ''}}"> 请选择所报班级 </text>
+      <text wx:else> {{grades[gIndex]}} </text>
+    </picker>
+  </view>
+  <view class="box">
+    <text>党支部</text>
+    <picker mode="selector" value="{{cIndex}}" range="{{communities}}" bindchange="bindCommunitieChange">
+      <text wx:if="{{cIndex == ''}}"> 请选择所属党支部 </text>
+      <text wx:else> {{communities[cIndex]}} </text>
+    </picker>
+  </view>
+  <view class="box i-box">
+    <text>姓名</text>
+    <input placeholder="请输入您的姓名" placeholder-class="input-pl" />
+  </view>
+  <view class="box i-box">
+    <text>身份证</text>
+    <input type="idcard" placeholder="请输入您的身份证" placeholder-class="input-pl" />
+  </view>
+  <view class="box">
+    <text>性别</text>
+    <picker mode="selector" value="{{sIndex}}" range="{{sexs}}" bindchange="bindSexChange">
+      <text wx:if="{{sIndex == ''}}"> 请选择 </text>
+      <text wx:else> {{sexs[sIndex]}} </text>
+    </picker>
+  </view>
+  <view class="box">
+    <text>民族</text>
+    <picker mode="selector" value="{{fIndex}}" range="{{familys}}" bindchange="bindFamilyChange">
+      <text wx:if="{{fIndex == ''}}"> 请选择 </text>
+      <text wx:else> {{familys[fIndex]}} </text>
+    </picker>
+  </view>
+  <view class="box i-box">
+    <text>部门</text>
+    <input placeholder="请输入您所属部门" placeholder-class="input-pl" />
+  </view>
+  <view class="box">
+    <text>级别</text>
+    <picker mode="selector" value="{{lIndex}}" range="{{levels}}" bindchange="bindLevelChange">
+      <text wx:if="{{lIndex == ''}}"> 请选择 </text>
+      <text wx:else> {{levels[lIndex]}} </text>
+    </picker>
+  </view>
+
+</view>
+<view class="button">报名</view>
